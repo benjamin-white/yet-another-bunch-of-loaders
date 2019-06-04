@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sam Herbert inspired SVG loaders implemented using CSS animation">
+    <title>SVG Loader Custom Elements</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- include custom elements polyfill -->
+    <script src="main.js"></script>
+    <script src="loaders/loader-grow.js"></script>
+    <script src="loaders/loader-ripple.js"></script>
+    <script src="loaders/loader-step.js"></script>
+    <script src="loaders/loader-spin.js"></script>
+    <!-- <script src="loaders/loader-sonar.js"></script> -->
+    <script src="loaders/loader-wave.js"></script>
+    <script src="loaders/loader-stargate.js"></script>
+    <script src="loaders/loader-oscillate.js"></script>
+    <script src="loaders/loader-slide.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Yet Another Bunch Of Loaders</h1>
+      <nav>
+        <button class="js-style--invert">INVERT</button> <button>View Source</button>
+      </nav>
+    </header>
+
+    <main class="Loaders-wrap">
+      <loader-grow class="Loader"></loader-grow>
+      <loader-ripple class="Loader"></loader-ripple>
+      <loader-step class="Loader" points="8"></loader-step>
+      <loader-spin class="Loader" speed="3"></loader-spin>
+      <!-- <loader-sonar class="Loader"></loader-sonar> -->
+      <loader-wave class="Loader"></loader-wave>
+      <loader-stargate class="Loader"></loader-stargate>
+      <loader-oscillate class="Loader"></loader-oscillate>
+      <loader-slide class="Loader"></loader-slide>
+    </main>
+
+  </body>
+
+</html>

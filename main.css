@@ -1,0 +1,37 @@
+body {
+
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 30px;
+
+}
+
+h1, nav {
+
+  text-align: center;
+
+}
+
+.u-inverted {
+
+  background-color: #000;
+  filter: invert(100%);
+
+}
+
+.Loaders-wrap {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 160px auto 0;
+  width: calc(106px * 4);
+
+}
+
+.Loader {
+
+  margin: 0 20px 40px;
+
+}
